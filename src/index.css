@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+  background-color: hsl(207, 26%, 17%);
+}
+/* 
+.dark-mode{
+  background-color: ;
+} */
+
+.country-card-title{
+  font-size: 10px;
+}
+
+#dropdown-basic::after{
+  display: none;
+}
+
+
+.home-page-wrapper{
+  background-color: hsl(207, 26%, 17%);
+}
+.dark-mode-element{
+  background-color: hsl(209, 23%, 22%) !important;
+  a:hover{
+    background-color: hsl(207, 26%, 17%) !important;
+  }
+}
+  
